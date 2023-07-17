@@ -9,14 +9,7 @@ export default function App (){
     good: 0,
     neutral: 0,
     bad: 0,
-  });
-  
-  
-  // state = {
-  //   good: 0,
-  //   neutral: 0,
-  //   bad: 0,
-  // };
+  });  
 
   const onBtnClick = (evt) => {    
     const currentName = evt.target.name;
